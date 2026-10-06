@@ -269,6 +269,8 @@ O próximo estágio será a expansão das funcionalidades do backend e, posterio
 ## 👨‍💻 Desenvolvedor
 
 **Yuri Silvano da Silva Santana**
+**Márcia Helena Bemvindo De Farias**
+**Lucas Luiz Nery de Almeida**
 
 Projeto desenvolvido para fins acadêmicos no curso **Técnico em Desenvolvimento de Sistemas (TDS)**.
 
