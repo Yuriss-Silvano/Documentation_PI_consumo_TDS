@@ -1,0 +1,23 @@
+### Teste para Criar uma Categoria
+POST http://localhost:8081/api/categorias
+Content-Type: application/json
+
+{
+  "nomeCategoria": "Eletrônicos",
+  "descricao": "Bens de consumo tecnológico e eletrodomésticos"
+}
+
+### Teste para Criar um Produto vinculado à Categoria 1
+POST http://localhost:8081/api/produtos
+Content-Type: application/json
+
+{
+  "nome": "Smartphone Galaxy",
+  "descricao": "Celular de última geração",
+  "marca": "Samsung",
+  "unidadeMedida": "Unidade",
+  "codigoBarras": "7891234567890",
+  "categoria": {
+    "idCategoria": 1
+  }
+}
